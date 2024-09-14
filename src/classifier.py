@@ -4,7 +4,7 @@ from typing import List, Dict
 from pydantic import BaseModel, Field
 from langchain.output_parsers.json import SimpleJsonOutputParser
 from constants import fluency_classifier_context
-from config import GROQ_API_KEY
+from src.config import GROQ_API_KEY
 import os
 
 os.environ['GROQ_API_KEY'] = GROQ_API_KEY   
